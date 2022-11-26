@@ -41,7 +41,6 @@ p {
   font-weight: bold;
   opacity: 0.7;
 }
-
 table,
 th,
 td {
@@ -60,6 +59,7 @@ table {
   width: 85%;
   margin: 0 auto;
   border-collapse: collapse;
+  border-bottom: none;
 }
 
 .title {
