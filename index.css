@@ -1,4 +1,4 @@
-/* comment first Table */ 
+/* comment first Table */
 
 /* body {
   background-color: #c03479;
@@ -28,4 +28,45 @@ table {
 
 .light {
   background-color: #66d3c0;
+}
+
+//second table!!! */
+
+p {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 25px;
+  color: black;
+  font-weight: bold;
+  opacity: 0.7;
+}
+
+table,
+th,
+td {
+  font-size: 25px;
+  text-align: center;
+  padding-top: 25px;
+  border-bottom: 3px solid #c2ddee;
+  border-right: 3px solid #ffffffd5;
+}
+
+td:first-child {
+  border-bottom: none;
+}
+
+table {
+  width: 85%;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+.title {
+  height: 80px;
+  background-color: #1d96b2;
+}
+
+tr:nth-child(odd) {
+  background-color: #efeeed;
 }
