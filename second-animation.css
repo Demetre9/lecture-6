@@ -1,0 +1,31 @@
+h1 {
+  font-size: 50px;
+  display: inline;
+  padding-bottom: 10px;
+}
+
+.div1 {
+  position: absolute;
+  width: 120px;
+  height: 20px;
+  background-color: red;
+  left: 133px;
+  top: 20px;
+  animation-name: color-change;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+}
+
+@keyframes color-change {
+  from {
+    background-color: none;
+  }
+
+  to {
+    background-color: red;
+    width: 10px;
+    left: 133px;
+    top: 20px;
+  }
+}
